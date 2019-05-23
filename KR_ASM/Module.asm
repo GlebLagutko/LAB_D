@@ -69,7 +69,7 @@ _FindNOD proc
 	mov ecx,[eax]
 	mov edx,[ebx]
 
-	NOD ecx,edx
+	NOD ecx,edx 
 	cdq
 
 	mov edi, [esp + 4];
